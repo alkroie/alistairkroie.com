@@ -1,0 +1,615 @@
+header {
+	padding: 2px;
+	margin: 0;
+    padding: 0;
+    /* FIXED HEADER position:fixed;
+    top: 0px;*/
+}
+
+.social {
+    width: 30px;
+    padding-top: 9px;
+    padding-bottom: 6px;
+}
+
+.social-right {
+    padding-right: 12px;
+}
+
+.site-name {
+            font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 100;
+    padding-left: 21px;
+    padding-top: 11px;
+    font-size: 15px;
+    color: white;
+    margin-top: 0;
+float: left;
+}
+
+@media only screen and (min-width: 500px) {
+     .site-name {font-size: 16px;}
+}
+
+.body-container {
+    width: 100%;
+}
+
+@media only screen and (min-width: 1441px) {
+     .body-container {width: 80%; margin: 0 auto;}
+}
+
+@media only screen and (min-width: 2130px) {
+     .body-container {width: 65%; margin: 0 auto;}
+}
+
+.margin-0 {
+    margin: 0;
+}
+
+.txt-white {
+    color: white;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.blue-txt {
+        color: cornflowerblue;
+}
+
+.blue-txt:hover {
+    color: white;
+}
+
+.blue-txt-link {
+        color: cornflowerblue;
+}
+
+.blue-txt-link:hover {
+    color: gray;
+}
+
+.container {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+@media only screen and (min-width: 850px) {
+     .container {width: 50%}
+}
+
+.container-twin {
+    width: 50%;
+        float: left;    
+}
+
+@media only screen and (min-width: 850px) {
+     .container-twin {width: 25%;}
+}
+
+.container-employ {
+    width: 50%;
+        float: left;    
+}
+
+@media only screen and (min-width: 850px) {
+     .container-employ {width: 25%;}
+}
+
+.inner {
+    min-height: 400px;
+    overflow: hidden;
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+@media only screen and (min-width: 850px) {
+     .inner {min-height: 400px;
+        padding-top: 15%;
+    padding-left: 12%;
+    padding-right: 12%;}
+}
+
+.inner-text {
+    min-height: 10px;
+    overflow: hidden;
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 6%;
+        background-color: white;
+}
+
+@media only screen and (min-width: 850px) {
+     .inner-text {min-height: 400px;
+        padding-top: 15%;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-bottom: 0;}
+}
+
+.top-inner-text {
+    padding-top: 8%;
+}
+
+.inner-twin {
+    min-height: 200px;
+    overflow: hidden;
+}
+
+.ref {
+
+    padding-left: 7%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    overflow: hidden;
+    text-align: center;
+}
+
+/*.inner {
+    width: 100%;
+}*/
+
+body {
+    margin: 0;
+}
+
+h1{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 30px;    
+}
+
+h2 {
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px; 
+    line-height: 25px;
+    font-weight: 100;
+}
+
+@media only screen and (min-width: 500px) {
+     h2 {font-size:25px; line-height: 30px;}
+}
+
+h3 {
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 15px; 
+    font-weight: 100;
+    color: cornflowerblue;
+}
+
+h4 {
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 18px; 
+    font-weight: 100;
+}
+
+.link-text {
+    text-decoration: none;
+    color: black;
+}
+
+.mouse-over:hover {
+    color: cornflowerblue;
+}
+
+.imgfull {
+    width: 100%;
+}
+
+.logos {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 4%;
+}
+
+@media only screen and (min-width: 850px) {
+     .logos {width: 60%;}
+}
+
+.centered {
+    text-align: center;
+}
+
+.left {
+    visibility: hidden;
+    min-height: 0;  
+}
+
+@media only screen and (min-width: 850px) {
+     .left {visibility: visible;
+    min-height: 400px;}
+}
+
+.right {
+    visibility: visible;
+    min-height: 320px;  
+}
+
+@media only screen and (min-width: 850px) {
+     .right {visibility: hidden;
+    min-height: 0px;
+    display: none;}
+}
+
+.desktop {
+        visibility: none;
+    display: none;
+}
+@media only screen and (min-width: 850px) {
+     .desktop {visibility: visible;
+    display: block;}
+}
+
+.mobile {
+        visibility: visible;
+    display: block;
+}
+@media only screen and (min-width: 850px) {
+     .mobile {visibility: none;
+    display: none;}
+}
+
+
+
+.background1 { 
+  background: url(../img/alistairkroie-oculus-circle.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.background2 { 
+  background: url(../img/kidsowntv-mobile.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.background3 { 
+
+   width: 100%;
+   height: 390px;
+/*   min-height: 400px;*/
+   background: url(../img/alistairkroie-iwonder.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+}
+
+@media only screen and (min-width: 850px) {
+     .background3 {height: 510px;}
+}
+
+.background4 { 
+
+   background: url(../img/alistairkroie-iwonder.jpg) no-repeat center center;  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.background5 { 
+   width: 100%;
+   height: 245px;
+   background: url(../img/audio/mood-audio.gif) no-repeat center center;  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@media only screen and (min-width: 450px) {
+     .background5 {height: 430px;}
+}
+
+@media only screen and (min-width: 850px) {
+     .background5 {height: 510px;}
+}
+
+.background6 { 
+   background: url(../img/audio/design-iwonder.jpg) no-repeat center center;  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.background7 { 
+       width: 100%;
+   height: 345px;
+   background: url(../img/audio/iwa-pres.jpg) no-repeat center center;  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@media only screen and (min-width: 850px) {
+     .background7 {height: 510px;}
+}
+
+.background8 { 
+           width: 100%;
+   height: 490px;
+   background: url(../img/bbc-character-alistair-kroie.jpg) no-repeat center center;  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@media only screen and (min-width: 850px) {
+     .background8 {height: 510px;}
+}
+
+.background9 { 
+   background: url(../img/audio/iwa-demonstrator-2.jpg) no-repeat center center;  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.background10 { 
+  background: url(../img/nick-mm-2.gif) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.background11 { 
+  background: url(../img/manor-view.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.background12 { 
+  background: url(../img/manky/manky-3D-camera.gif) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.background13 { 
+       height: 330px;
+  background: url(../img/alkroie-video.gif) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.video-bg-1 {
+   background: url(../img/trails-video.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;   
+}
+
+.video-bg-2 {
+    height: 510px;
+   background: url(../img/video-co.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;   
+}
+
+.video-bg-3 {
+   background: url(../img/samsung-ipad.jpg)  no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;   
+}
+
+.video-bg-4 {
+    height: 510px;
+   background: url(../img/pudsey-photo.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;   
+}
+
+.anim-bg-1 {
+   background: url(../img/animation-gif.gif) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;   
+}
+
+.anim-bg-2 {
+   background: url(../img/development.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;   
+}
+
+.anim-bg-3 {
+    height: 510px;
+   background: url(../img/proposal.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;   
+}
+
+.anim-bg-4 {
+   background: url(../img/backgrounds.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;   
+}
+
+.anim-bg-5 {
+    height: 510px;
+   background: url(../img/characters.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;   
+}
+
+.anim-bg-6 {
+   background: url(../img/icons.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;   
+}
+
+.anim-bg-7 {
+    height: 510px;
+   background: url(../img/strategy.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;   
+}
+
+.anim-bg-8 {
+   background: url(../img/final.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;   
+}
+
+
+.width-100 {
+    width: 100%;
+}
+
+@media only screen and (min-width: 850px) {
+     .background13 {height: 510px;}
+}
+
+.black {
+    	background-color: black;
+}
+
+.grey {
+        background-color: #fcfcfc;
+}
+
+.blue {
+    background-color: #edf3fc;
+}
+
+.dgrey {
+    background-color: #f7f7f7; 
+}
+
+.dblue {
+    background-color: #dbe8ff;
+}
+
+a:hover {
+    color: white;
+}
+
+.pad-4x {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a { 
+    text-decoration: none;
+}
+
+.padbot {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.padtop {
+    padding-top: 0;
+    margin-top: 0px;
+}
+
+.minheight-facts {
+min-height: 318px;
+}
+
+@media only screen and (min-width: 410px) {
+     .minheight-facts {min-height: 280px;}
+}
+
+@media only screen and (min-width: 550px) {
+     .minheight-facts {min-height: 279px;}
+}
+
+@media only screen and (min-width: 620px) {
+     .minheight-facts {min-height: 244px;}
+}
+
+@media only screen and (min-width: 840px) {
+     .minheight-facts {min-height: 279px;}
+}
+
+.reference {
+    padding: 3%;
+    clear: both;
+}
+
+.reference-text {
+    width: 95%;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 850px) {
+     .reference-text {width: 70%;}
+}
+
+footer {
+	background-color: black;
+	margin: 0px;
+    height: 55px;
+	clear: both;
+}
+
+.footer-text {
+    float: left;
+    padding-left: 10px;
+}
+
+.footer-social {
+    padding-top: 5px;
+}
+
+.background3:hover {
+ background-size: cover;
+ transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);  IE 9 
+  overflow: hidden;
+}
+
