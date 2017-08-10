@@ -402,3 +402,12 @@ $('#open-popup-kids-tech').magnificPopup({
         type: 'iframe' // this overrides default type
       },
 });
+
+$('#open-popup-pudsey').magnificPopup({
+    items: 
+
+          {
+        src: 'http://vimeo.com/146413690',
+        type: 'iframe' // this overrides default type
+      },
+});
