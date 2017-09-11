@@ -22,10 +22,6 @@ h2 {
      h2 {font-size:25px;}
 }
 
-h2:hover {
-    color: white;
-}
-
 h3 {
         font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 15px; 

@@ -2,7 +2,7 @@ $('#open-popup-samsung').magnificPopup({
     items: 
 
           {
-        src: 'http://vimeo.com/89978682',
+        src: 'https://vimeo.com/89978682',
         type: 'iframe' // this overrides default type
       },
 });
