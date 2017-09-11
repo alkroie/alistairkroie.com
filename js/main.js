@@ -1,4 +1,23 @@
+$('#open-popup-jungle').magnificPopup({
+    items: 
+
+          {
+        src: 'https://vimeo.com/124511185',
+        type: 'iframe' // this overrides default type
+      },
+});
+
+
 $('#open-popup-samsung').magnificPopup({
+    items: 
+
+          {
+        src: 'https://vimeo.com/89978682',
+        type: 'iframe' // this overrides default type
+      },
+});
+
+$('#open-popup-samsung2').magnificPopup({
     items: 
 
           {
@@ -27,6 +46,15 @@ $('#open-popup-spill-seekers').magnificPopup({
 });
 
 $('#open-popup-code-camp').magnificPopup({
+    items: 
+
+          {
+        src: 'http://vimeo.com/97398013',
+        type: 'iframe' // this overrides default type
+      },
+});
+
+$('#open-popup-code-camp2').magnificPopup({
     items: 
 
           {
@@ -405,6 +433,15 @@ $('#open-popup-appy').magnificPopup({
 });
 
 $('#open-popup-nick-new').magnificPopup({
+    items: 
+
+          {
+        src: 'http://vimeo.com/114234793',
+        type: 'iframe' // this overrides default type
+      },
+});
+
+$('#open-popup-nick-new2').magnificPopup({
     items: 
 
           {
