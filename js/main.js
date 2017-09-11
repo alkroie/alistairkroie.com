@@ -8,6 +8,15 @@ $('#open-popup-samsung').magnificPopup({
 });
 
 
+$('#open-popup-spill-seekers2').magnificPopup({
+    items: 
+
+          {
+        src: 'http://vimeo.com/70598851',
+        type: 'iframe' // this overrides default type
+      },
+});
+
 $('#open-popup-spill-seekers').magnificPopup({
     items: 
 
@@ -22,6 +31,16 @@ $('#open-popup-code-camp').magnificPopup({
 
           {
         src: 'http://vimeo.com/97398013',
+        type: 'iframe' // this overrides default type
+      },
+});
+
+
+$('#open-popup-bts-f10').magnificPopup({
+    items: 
+
+          {
+        src: 'https://vimeo.com/100390406',
         type: 'iframe' // this overrides default type
       },
 });
