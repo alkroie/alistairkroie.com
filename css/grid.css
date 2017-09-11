@@ -1,0 +1,178 @@
+
+
+.inline {
+    display: inline-block;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.blue-txt {
+        color: cornflowerblue;
+}
+
+h2 {
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px; 
+    font-weight: 100;
+}
+
+@media only screen and (min-width: 500px) {
+     h2 {font-size:25px;}
+}
+
+h2:hover {
+    color: white;
+}
+
+h3 {
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 15px; 
+    font-weight: 100;
+    color: cornflowerblue;
+}
+
+a {
+    text-decoration: none;
+}
+
+.centered {
+    text-align: center;
+}
+
+header img {
+    width: 29px;
+}
+
+#rig {
+    /*max-width:1100px;*/
+    margin:0 auto; /*center aligned*/
+    padding:0;
+    font-size:0; /* Remember to change it back to normal font size if have captions */
+    list-style:none;
+}
+#rig li {
+    display: inline-block;
+    *display:inline;/*for IE6 - IE7*/
+    width:25%;
+    vertical-align:middle;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+        
+/* The wrapper for each item */
+.rig-cell {
+    /*margin:12px;
+    box-shadow:0 0 6px rgba(0,0,0,0.3);*/
+    display:block;
+    position: relative;
+    overflow:hidden;
+}
+        
+/* If have the image layer */
+.rig-img {
+    display:block;
+    width: 100%;
+    height: auto;
+    border:none;
+    transform:scale(1);
+    transition:all 1s;
+}
+
+#rig li:hover .rig-img {
+    transform:scale(1.05);
+}
+        
+/* If have the overlay layer */
+.rig-overlay {
+    position: absolute;
+    display:block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background: #3DC0F1 url(img/link.png) no-repeat center 20%;
+    background-size:50px 50px;
+    opacity:0;
+    filter:alpha(opacity=0);/*For IE6 - IE8*/
+    transition:all 0.6s;
+}
+#rig li:hover .rig-overlay {
+    opacity:0.8;
+}
+
+/* If have captions */
+.rig-text {
+    display:block;
+    padding:0 30px;
+    box-sizing:border-box;
+    position:absolute;
+    left:0;
+    width:100%;
+    text-align:center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 30px;    
+    font-weight: 300;
+    font-weight:normal!important;
+    top:40%;
+    color:white;
+    opacity:0;
+    filter:alpha(opacity=0);/*For older IE*/
+    transform:translateY(-20px);
+    transition:all .3s;
+}
+
+.rig-text2 {
+    top:65%;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 200; 
+    font-size: 16px;
+    line-height: 25px;
+}
+#rig li:hover .rig-text {
+    transform:translateY(0px);
+    opacity:0.9;
+}
+
+@media (max-width: 9000px) {
+    #rig li {
+        width:25%;
+    }
+}
+
+@media (max-width: 1200px) {
+    #rig li {
+        width:33.33%;
+    }
+}
+
+@media (max-width: 720px) {
+    #rig li {
+        width:50%;
+    }
+    .rig-text {font-size: 20px;
+        top:40%;}
+    .rig-text2 {
+        font-size: 12px;
+        top: 55%;
+    }
+}
+
+
+/*
+h2 { 
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200; 
+    font-size: 16px;
+    line-height: 25px;
+}
+
+h3 { 
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100; 
+    font-size: 14px;
+    color: #5ea9dd;
+}*/
