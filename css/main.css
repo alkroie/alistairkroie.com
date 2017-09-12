@@ -501,6 +501,29 @@ h4 {
   background-size: cover;   
 }
 
+.alien1 {
+   background: url(../img/alien-terrain.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;   
+}
+
+.alien2 {
+   background: url(../img/alien/alien-terrain-pan-ice.gif) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;   
+}
+
+.alien3 {
+   background: url(../img/alien/alien-terrains.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;   
+}
 
 .width-100 {
     width: 100%;
