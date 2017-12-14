@@ -476,3 +476,12 @@ $('#open-popup-pudsey2').magnificPopup({
         type: 'iframe' // this overrides default type
       },
 });
+
+$('#open-popup-style-guide').magnificPopup({
+    items: 
+
+          {
+        src: 'https://vimeo.com/237615044',
+        type: 'iframe' // this overrides default type
+      },
+});
