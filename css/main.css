@@ -230,7 +230,7 @@ h4 {
 
 .right {
     visibility: visible;
-    min-height: 320px;  
+    min-height: 400px;  
 }
 
 @media only screen and (min-width: 850px) {
@@ -546,6 +546,50 @@ h4 {
 
 .reactions-high-fed {
    background: url(../img/reactions/react-high-fidelity.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;   
+}
+
+.reactions-wireframe {
+   background: url(../img/reactions/react-wireframes5.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;   
+}
+
+.reactions-journey {
+           width: 100%;
+   height: 510px;
+   background: url(../img/reactions/react-wireframes7.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;   
+}
+
+.reactions-testing {
+           width: 100%;
+   height: 510px;
+   background: url(../img/reactions/user-testing.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;   
+}
+
+.reactions-persona {
+   background: url(../img/reactions/react-persona.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;   
+}
+
+.reactions-overview {
+   background: url(../img/reactions/bbc-reactions-gif-2.gif) no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
