@@ -167,15 +167,18 @@ h1{
     font-size: 30px;    
 }
 
+
+
+
 h2 {
-        font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size: 20px; 
-    line-height: 25px;
-    font-weight: 100;
+        font-family: 'Muli', sans-serif;;
+    font-size: 13px; 
+    line-height: 18px;
+    font-weight: 600;
 }
 
 @media only screen and (min-width: 500px) {
-     h2 {font-size:25px; line-height: 30px;}
+     h2 {font-size:19px; line-height: 23px;}
 }
 
 h3 {
@@ -190,6 +193,15 @@ h4 {
     font-size: 18px; 
     font-weight: 100;
 }
+
+h5 {
+        font-family: 'Muli', sans-serif;;
+    font-size: 18px; 
+    line-height: 25px;
+    font-weight: 800;
+}
+
+
 
 .link-text {
     text-decoration: none;
