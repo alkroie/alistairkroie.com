@@ -608,6 +608,14 @@ h5 {
   background-size: cover;   
 }
 
+.reactions-proto {
+   background: url(../img/reactions/reactions-gif.gif) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;   
+}
+
 .width-100 {
     width: 100%;
 }
